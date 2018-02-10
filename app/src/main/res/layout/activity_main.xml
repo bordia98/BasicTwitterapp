@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#e8e8e8"
+    android:layout_height="match_parent"
+    tools:context="com.example.bordia98.twitter.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/start" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="55dp"
+        android:gravity="center_horizontal"
+        android:text="Welcome "
+        android:textColor="#1569e9"
+        android:textSize="30dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:gravity="center_horizontal"
+        android:text="To "
+        android:textColor="#1569e9"
+        android:textSize="30dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView5"
+        android:gravity="center_horizontal"
+        android:text="TWEET OON!!! "
+        android:textColor="#1569e9"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <com.twitter.sdk.android.core.identity.TwitterLoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp" />
+
+
+    <com.example.bordia98.twitter.typewriter
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_below="@+id/imageView"
+        android:id="@+id/typewriter"
+        android:layout_margin="20dp"
+        android:gravity="center_horizontal"
+        android:textColor="#1569E9"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        />
+
+</RelativeLayout>
