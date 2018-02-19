@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Tweet-OON</string>
-    <string name="com.twitter.sdk.android.CONSUMER_KEY">SKeF38iOUgvq44mCSdxhCQbVg</string>
-    <string name="com.twitter.sdk.android.CONSUMER_SECRET">sRUXRdLIs4KTMVkhNnf1J5RDY5kKWKoQGeepPBW8epBGnAhueJ
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">YOUR CONSUMER KEY</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">YOUR CONUSMER SECRET KEY
 </string>
 </resources>
